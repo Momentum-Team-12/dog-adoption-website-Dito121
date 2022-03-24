@@ -1,0 +1,26 @@
+header {
+    color: white;
+    background-color: #004175;
+    border: 4px solid #89DEEF;
+    border-width: 0px 0px 4px 0px;
+    padding: 1px;
+    text-align: center;
+    font-family: "open sans";
+}
+
+body {
+    font-family: "Oswald";
+}
+
+div {
+    display: flex;
+    align-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 5%;
+}
+
