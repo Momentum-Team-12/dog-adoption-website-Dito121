@@ -8,6 +8,14 @@ header {
     font-family: "open sans";
 }
 
+#all-dogs {
+    border: 3px solid black;
+}
+
+.row {
+    display: flex;
+}
+
 ul{
     list-style: none;
 }
@@ -27,12 +35,11 @@ body {
     font-weight: bold;
 }
 
-.image {
+.card {
     width: 30%;
-    display: inline-block;
+    padding-right: 5%;
 }
 
 img {
     width: 30%;
 }
-
