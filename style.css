@@ -9,7 +9,7 @@ header {
 }
 
 #all-dogs {
-    border: 3px solid black;
+    
 }
 
 .row {
@@ -37,9 +37,11 @@ body {
 
 .card {
     width: 30%;
+    padding-top: 10px;
     padding-right: 5%;
 }
 
 img {
-    width: 30%;
+    width: 100%;
 }
+
