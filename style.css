@@ -30,3 +30,7 @@ section {
     height: 500px;
 }
 
+.name {
+    font-weight: bold;
+}
+
