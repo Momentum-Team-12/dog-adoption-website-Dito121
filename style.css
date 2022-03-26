@@ -8,23 +8,21 @@ header {
     font-family: "open sans";
 }
 
-#all-dogs {
-    
-}
-
 .row {
     display: flex;
 }
 
 ul{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 li {
     background-color: #89DEEF;
     border-radius: 20px;
+    padding: 5px;
     display: inline-block;
-
+    font-size: small;
 }
 
 body {
@@ -37,8 +35,8 @@ body {
 
 .card {
     width: 30%;
-    padding-top: 10px;
-    padding-right: 5%;
+    padding-top: 5px;
+    padding-right: 2.5%;
 }
 
 img {
