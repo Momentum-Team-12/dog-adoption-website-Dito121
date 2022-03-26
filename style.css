@@ -10,6 +10,7 @@ header {
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 ul{
@@ -34,12 +35,52 @@ body {
 }
 
 .card {
-    width: 30%;
+    width: 33%;
     padding-top: 5px;
-    padding-right: 2.5%;
 }
 
 img {
     width: 100%;
 }
 
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid black;
+    width: 33.3%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    /* background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)),
+    url("file:///Users/gerardoayes/Documents/Momentum/Homework/dog-adoption-website-Dito121/starter_files/images/location.png"); */
+}
+
+#box1 {
+    background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)),
+    url("file:///Users/gerardoayes/Documents/Momentum/Homework/dog-adoption-website-Dito121/starter_files/images/donate.jpg");
+    background-size: 100%;
+}
+
+#box2 {
+    background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)),
+    url("file:///Users/gerardoayes/Documents/Momentum/Homework/dog-adoption-website-Dito121/starter_files/images/volunteer.jpg");
+    background-size: 100%;
+}
+
+#box3 {
+    background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)),
+    url("file:///Users/gerardoayes/Documents/Momentum/Homework/dog-adoption-website-Dito121/starter_files/images/location.png");
+    background-size: 100%;
+}
